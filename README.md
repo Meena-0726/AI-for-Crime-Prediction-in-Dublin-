@@ -53,14 +53,17 @@ To enhance public safety and optimize police resource allocation by predicting c
 
 ## 📂 Project Files  
 
-- `1_data_exploration.ipynb` → EDA on raw crime data  
-- `2_data_preprocessing.ipynb` → Data cleaning, feature engineering  
-- `3_arima_model.ipynb` → ARIMA time-series forecasting  
-- `4_lstm_model.ipynb` → LSTM deep learning model  
-- `5_random_forest_model.ipynb` → Random Forest regression  
-- `6_model_evaluation.ipynb` → Comparison and results  
-- `visualizations/` → PNGs, interactive charts  
+- `crime_prediction_analysis.ipynb` → Complete end-to-end notebook including:  
+  - 📌 Data loading and cleaning  
+  - 📊 Exploratory data analysis  
+  - ⚙️ Feature engineering and preprocessing  
+  - 📈 ARIMA model  
+  - 🤖 LSTM neural network  
+  - 🌲 Random Forest model  
+  - 🧪 Evaluation and visualizations  
+
 - `README.md` → Project documentation  
+- `requirements.txt` → Python dependencies (optional to generate)
 
 ---
 
