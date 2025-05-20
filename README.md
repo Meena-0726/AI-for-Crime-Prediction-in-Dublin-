@@ -106,10 +106,6 @@ ARIMA performed well on regular, cyclical data, but missed anomalies
 
 🏙️ Dublin consistently had higher crime rates than other regions
 
-⚠️ Limitations
-❌ Real-time prediction dashboard not included
-
-❌ Spatial mapping of crime hotspots was planned but not implemented
 
 🚀 Future Enhancements
 🧭 Add geospatial analysis for crime hotspot prediction
