@@ -1,127 +1,104 @@
-# AI-for-Crime-Prediction-in-Dublin-
+# 🔍 AI for Crime Prediction in Dublin  
+Forecasting crime trends using AI models (LSTM, ARIMA, Random Forest) to support data-driven policing in Dublin.
 
-🧠 AI for Crime Prediction in Dublin
-📍 Project Type: Machine Learning / Time-Series Forecasting
-📁 Domain: Crime Data Analytics
-📍 Location: Dublin, Ireland
-📅 Timeline: 2025
-🧑‍🎓 Author: Lakshmi Meena Manivannan
+## 📌 Business Requirement  
+To enhance public safety and optimize police resource allocation by predicting crime trends using historical data in Dublin, Ireland.
 
-📌 Table of Contents
-📖 About the Project
+### Objectives:  
+✅ Forecast future crime incidents using machine learning.  
+✅ Identify seasonal and temporal crime patterns.  
+✅ Compare traditional and AI-driven predictive models.  
+✅ Visualize key crime indicators for insight-driven decisions.  
+✅ Recommend proactive policing strategies and interventions.
 
-🧰 Tools and Technologies Used
+---
 
-📂 Folder Structure
+## 📊 Key Performance Indicators (KPIs)  
 
-📊 Exploratory Data Analysis
+### 1️⃣ Monthly Crime Trends  
+   - Track monthly crime volumes to identify patterns and spikes.
 
-🧠 Models Implemented
+### 2️⃣ Crime Category Insights  
+   - Understand which crime types are most common.
 
-📈 Model Evaluation
+### 3️⃣ Regional Crime Distribution  
+   - Highlight high-crime areas by Garda region.
 
-🔍 Key Insights
+### 4️⃣ Forecast Accuracy  
+   - Evaluate predictive performance using RMSE, MAE, and R².
 
-⚠️ Limitations
+### 5️⃣ Model Performance Comparison  
+   - Compare ARIMA, LSTM, and Random Forest forecasting capabilities.
 
-🚀 Future Enhancements
+---
 
-🙋‍♀️ About Me
+## 📈 Charts & Visuals Used  
 
-📖 About the Project
-This project applies AI and machine learning techniques to predict crime trends in Dublin using historical data. It involves data cleaning, feature engineering, time-series forecasting, model comparison, and visual storytelling to assist urban safety planning and public policy.
+📅 Monthly Crime Forecast (Line Chart)  
+   - Projects future crime counts using trained models.
 
-🔍 Objective: Build a predictive system using ARIMA, LSTM, and Random Forest to forecast future crime occurrences for proactive law enforcement.
+📦 Crime by Category (Bar Chart)  
+   - Displays top 10 most frequent crime types.
 
-🧰 Tools and Technologies Used
-Category	Tools/Libraries
-Language	Python
-IDE	Jupyter Notebook
-Data Handling	Pandas, NumPy
-Visualization	Matplotlib, Seaborn, Plotly
-Machine Learning	Scikit-learn, TensorFlow, Keras
-Time-Series	Statsmodels (ARIMA), LSTM
+🗺️ Crime by Garda Region (Map or Animated Bar Chart)  
+   - Visualizes region-wise crime distribution over time.
 
-📂 Folder Structure
-bash
-Copy
-Edit
-├── data/                # Dataset files
-├── notebooks/           # Jupyter Notebooks for each model
-├── models/              # Trained model outputs
-├── visualizations/      # Graphs and dashboards
-├── README.md            # Project documentation
-└── requirements.txt     # Python dependencies
-📊 Exploratory Data Analysis
-📈 Time Series Trends: Seasonality and monthly spikes identified
+📊 Model Metrics (Table/Line Plots)  
+   - Summarizes RMSE, MAE, and R² for each model.
 
-📅 Crime by Day/Month/Quarter: Weekends and Q3/Q4 have higher crimes
+📉 Residual Error Distribution (Histogram)  
+   - Evaluates consistency of model predictions.
 
-🗺️ Top Regions: Dublin Metropolitan and Cork City rank highest
+---
 
-🔥 Correlation Heatmap: Strongest link found with Type of Offence
+## 📂 Project Files  
 
-📋 Top Crime Categories: Theft and Public Order Offences dominate
+- `1_data_exploration.ipynb` → EDA on raw crime data  
+- `2_data_preprocessing.ipynb` → Data cleaning, feature engineering  
+- `3_arima_model.ipynb` → ARIMA time-series forecasting  
+- `4_lstm_model.ipynb` → LSTM deep learning model  
+- `5_random_forest_model.ipynb` → Random Forest regression  
+- `6_model_evaluation.ipynb` → Comparison and results  
+- `visualizations/` → PNGs, interactive charts  
+- `README.md` → Project documentation  
 
-🧠 Models Implemented
-🔹 ARIMA
-📊 Traditional time-series model
+---
 
-Best for linear trends & seasonality
+## 🚀 How to Use  
 
-Simple, interpretable, and fast
+1️⃣ Clone the repository or download the ZIP.  
+2️⃣ Open each notebook in Jupyter or Colab in the given order.  
+3️⃣ Install dependencies using `requirements.txt` if needed.  
+4️⃣ Run the models to train and evaluate forecasts.  
+5️⃣ View visualizations in notebook cells or `visualizations/`.
 
-🔹 LSTM (Long Short-Term Memory)
-🤖 Deep learning model for sequential prediction
+---
 
-Captures both short-term volatility and long-term dependencies
+## 📢 Insights & Recommendations  
 
-✅ Best performing model
+📌 Best Model:  
+   - LSTM showed the highest accuracy and lowest RMSE.
 
-🔹 Random Forest Regressor
-🌳 Feature-based ensemble model
+📌 Seasonal Patterns:  
+   - Crime tends to rise during weekends and Q3/Q4 annually.
 
-Learns from engineered time features (e.g. month, day, year)
+📌 Regional Observations:  
+   - Dublin Metropolitan consistently shows high crime frequency.
 
-Offers feature importance insights for decision-making
+📌 Model Use Cases:  
+   - ARIMA is suitable for simple, seasonal trends.  
+   - LSTM is best for complex time dependencies.  
+   - Random Forest offers explainability and quick deployment.
 
-📈 Model Evaluation
-Metric	ARIMA	LSTM	Random Forest
-MAE	Moderate	✅ Lowest	Higher
-RMSE	Moderate	✅ Lowest	Higher
-R² Score	Medium	✅ Highest	Lower
+---
 
-✅ LSTM was statistically superior (paired t-tests confirmed)
+## 📌 About Me  
+🔹 Lakshmi Meena Manivannan – Data Analyst | ML | Forecasting  
+🔹 Email: x23426918@student.ncirl.ie  
+🔹 LinkedIn: https://www.linkedin.com/in/lakshmi-meena-manivannan/  
+🔹 Medium: https://medium.com/@meena07laksh  
 
-📉 Visual inspection confirmed LSTM matched trends closest
+---
 
-🔍 Key Insights
-LSTM handled irregular crime spikes better than ARIMA and RF
-
-Random Forest was interpretable, highlighting important time features
-
-ARIMA performed well on regular, cyclical data, but missed anomalies
-
-📊 Time Series Decomposition supported the presence of seasonality
-
-🏙️ Dublin consistently had higher crime rates than other regions
-
-
-🚀 Future Enhancements
-🧭 Add geospatial analysis for crime hotspot prediction
-
-⚡ Build real-time dashboards for live predictions
-
-🧠 Implement Explainable AI (SHAP, LIME) for transparency
-
-🌍 Generalize models to other cities/countries
-
-🤝 Ensemble models for improved robustness
-
-🙋‍♀️ About Me
-👩‍💻 Lakshmi Meena Manivannan
-🎓 MSc Data Analytics — National College of Ireland
-📧 Email: x23426918@student.ncirl.ie
-📍 Dublin, Ireland
-
+🚀 Let’s connect and collaborate on turning data into action!
 
