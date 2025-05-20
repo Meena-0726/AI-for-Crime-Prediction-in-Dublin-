@@ -1,15 +1,17 @@
 # 🔍 AI for Crime Prediction in Dublin  
-Forecasting crime trends using AI models (LSTM, ARIMA, Random Forest) to support data-driven policing in Dublin.
+Forecasting crime trends using AI models (LSTM, ARIMA, Random Forest) to support data-driven policing in Dublin. This project uses Artificial Intelligence and Machine Learning techniques to predict future crime trends in Dublin, Ireland. It leverages historical crime data, performs comprehensive time-series and classification modeling, and compares the performance of ARIMA, LSTM, and Random Forest algorithms. The goal is to build a robust and scalable crime forecasting model that can assist law enforcement and policymakers in making data-driven decisions to enhance urban safety.
 
 ## 📌 Business Requirement  
 To enhance public safety and optimize police resource allocation by predicting crime trends using historical data in Dublin, Ireland.
 
 ### Objectives:  
-✅ Forecast future crime incidents using machine learning.  
-✅ Identify seasonal and temporal crime patterns.  
-✅ Compare traditional and AI-driven predictive models.  
-✅ Visualize key crime indicators for insight-driven decisions.  
-✅ Recommend proactive policing strategies and interventions.
+
+✅ Develop a predictive model using historical crime data to **forecast future incidents** in Dublin.  
+✅ Apply **ARIMA, LSTM, and Random Forest** models to analyze and compare different forecasting approaches.  
+✅ Uncover **seasonal, temporal, and categorical crime patterns** through time-series decomposition and feature engineering.  
+✅ Support law enforcement with **data-driven strategies** to optimize patrol scheduling, resource allocation, and crime prevention.  
+✅ Deliver clear visual insights and actionable findings to stakeholders through **interactive charts and metric-based evaluations**.  
+✅ Lay the groundwork for future expansion into **real-time crime forecasting and geospatial hotspot mapping**.
 
 ---
 
